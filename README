@@ -36,7 +36,7 @@ Um sistema bancário modular desenvolvido em **Java** para a disciplina de **Pro
 
 O projeto segue uma estrutura modular organizada:
 
-```
+```bash
 xubank/
 ├── src/
 │   ├── controller/      # Controladores da aplicação
@@ -57,7 +57,7 @@ xubank/
 
 * **Java 17**
 * **JUnit** para testes unitários
-* Programação orientada a objetos (POO)
+* Programação Orientada a Objetos (POO)
 * Conceitos de modularização
 
 ---
@@ -103,5 +103,3 @@ mvn test
 **Lucas Gonçalves Dolabela**
 Disciplina: Programação Modular — PUC Minas
 Ano/Semestre: 2025/1
-
-
