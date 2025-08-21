@@ -50,8 +50,6 @@ O processo de execução envolve clonar o repositório do projeto, compilar os a
 🧪 Testes
 O projeto possui testes unitários que foram implementados com JUnit. Para executá-los, você pode usar uma ferramenta de automação como o Maven ou rodá-los diretamente pela sua IDE.
 
-📜 Licença
-Este projeto está protegido sob a licença MIT. Para mais detalhes, sinta-se à vontade para consultar o arquivo LICENSE no repositório.
 
 👨‍💻 Autor
 Este projeto foi desenvolvido por Lucas Gonçalves Dolabela como parte da disciplina de Programação Modular na PUC Minas, durante o primeiro semestre de 2025/1.
