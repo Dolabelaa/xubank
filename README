@@ -4,20 +4,15 @@
 </p>
 
 <h1 align="center">🏦 Xubank</h1>
+
 <p align="center">
   Um sistema bancário modular desenvolvido em <b>Java</b> para a disciplina de <b>Programação Modular</b> na <b>PUC Minas</b>.
 </p>
 
 <p align="center">
-  <a href="https://www.java.com">
-    <img src="https://img.shields.io/badge/Java-17-blue?style=for-the-badge&logo=coffeescript&logoColor=white" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Licença-MIT-green?style=for-the-badge" />
-  </a>
+  <img src="https://img.shields.io/badge/Java-17-blue?style=for-the-badge&logo=coffeescript&logoColor=white" alt="Java 17" />
+  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge" alt="Status" />
+  <img src="https://img.shields.io/badge/Licença-MIT-green?style=for-the-badge" alt="Licença MIT" />
 </p>
 
 ---
@@ -50,8 +45,6 @@
 
 ## 🏗️ Arquitetura do Projeto
 
-O projeto segue uma **estrutura modular** organizada e de fácil manutenção:
-
 ```bash
 xubank/
 ├── src/
@@ -61,12 +54,20 @@ xubank/
 │   ├── test/            # Testes unitários
 │   └── Main.java        # Classe principal
 
-| Tecnologia        | Descrição                                              |
-| ----------------- | ------------------------------------------------------ |
-| **Java 17**       | Linguagem principal do projeto                         |
-| **JUnit**         | Framework para testes unitários                        |
-| **POO**           | Paradigma de Programação Orientada a Objetos           |
-| **Modularização** | Separação de responsabilidades e organização do código |
+Controller → Lógica de negócio e comunicação entre modelos e visão.
+
+Model → Representa as entidades do sistema (Cliente, Conta, Transação, etc.).
+
+Util → Classes auxiliares, como validadores e formatadores.
+
+Test → Testes unitários para garantir a qualidade do código.
+
+🚀 Tecnologias Utilizadas
+Tecnologia	Descrição
+Java 17	Linguagem principal do projeto
+JUnit	Framework para testes unitários
+POO	Paradigma de Programação Orientada a Objetos
+Modularização	Organização e separação de responsabilidades
 
 📦 Como Executar o Projeto
 🔹 Pré-requisitos
@@ -76,7 +77,6 @@ Java JDK 17 ou superior
 IDE recomendada: IntelliJ IDEA ou Eclipse
 
 🔹 Passos para execução
-
 # Clone o repositório
 git clone https://github.com/seuusuario/xubank.git
 
@@ -91,7 +91,7 @@ java -cp bin Main
 
 🧪 Testes
 
-O projeto possui testes unitários implementados com JUnit. Para executá-los:
+O projeto possui testes unitários com JUnit. Para executá-los:
 
 # Execute os testes com Maven
 mvn test
@@ -102,4 +102,4 @@ Lucas Gonçalves Dolabela
 📚 Disciplina: Programação Modular — PUC Minas
 📆 Ano/Semestre: 2025/1
 
-<p align="center"> Feito por <b>Lucas Gonçalves Dolabela</b> </p> ```
+<p align="center"> Feito com ❤️ por <b>Lucas Gonçalves Dolabela</b> </p> ```
